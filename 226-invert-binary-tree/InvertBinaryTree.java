@@ -1,7 +1,7 @@
 import javax.swing.tree.TreeNode;
 
 public class InvertBinaryTree {
-    public class TreeNode {
+     class TreeNode {
       int val;
       TreeNode left;
       TreeNode right;
