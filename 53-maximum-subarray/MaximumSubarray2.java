@@ -1,6 +1,6 @@
 // Dynamic Programming
 
-public class Solution2 {
+public class MaximumSubarray2 {
     public int maxSubArray(int[] nums) {
         int maxSum = nums[0];
         int[] largest = new int[nums.length];

@@ -1,6 +1,6 @@
 // Greedy method
 
-class Solution1 {
+class MaximumSubarray1 {
     public int maxSubArray(int[] nums) {
         
         int currentSum = 0;
