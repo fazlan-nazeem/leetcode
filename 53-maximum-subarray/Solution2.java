@@ -12,3 +12,6 @@ public class Solution2 {
         return maxSum;
     }
 }
+
+// time-complexity = O(n)
+// space-complexity = O(1)

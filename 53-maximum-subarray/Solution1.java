@@ -16,3 +16,6 @@ class Solution1 {
         return maxSum;
     }
 }
+
+// time-complexity = O(n)
+// space-complexity = O(1)
