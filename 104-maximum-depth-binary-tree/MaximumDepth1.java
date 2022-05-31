@@ -1,4 +1,4 @@
-public class MaximumDepth {
+public class MaximumDepth1 {
      class TreeNode {
          int val;
          TreeNode left;
@@ -17,7 +17,9 @@ public class MaximumDepth {
              this.right = right;
          }
      }
-    public int maxDepth(TreeNode root) {
+
+     // recursive DFS
+     public int maxDepth(TreeNode root) {
 
         if(root == null) {
             return 0;
