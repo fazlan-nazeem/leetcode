@@ -1,4 +1,4 @@
-public class NumberOfIslands {
+public class NumberOfIslands1 {
 
     char[][] grid;
     int rows;
