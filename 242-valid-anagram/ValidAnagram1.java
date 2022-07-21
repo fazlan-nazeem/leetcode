@@ -1,6 +1,4 @@
 import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Map;
 
 public class ValidAnagram1 {
 
@@ -13,14 +11,9 @@ public class ValidAnagram1 {
         char[] ta = t.toCharArray();
         Arrays.sort(sa);
         Arrays.sort(ta);
-        for(int i = 0; i < sa.length; i++) {
-            if(sa[i] != ta[i]) {
-                return false;
-            }
-        }
-        return true;
+        return Arrays.equals(sa, ta);
     }
 }
 
 // time-complexity = O (nlogn)
-// space-complexity = O(1)
+// space-complexity = O(n)

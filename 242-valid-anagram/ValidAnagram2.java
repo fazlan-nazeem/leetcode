@@ -13,12 +13,7 @@ public class ValidAnagram2 {
             sMap.put(s.charAt(i), sMap.getOrDefault(s.charAt(i), 0) + 1);
             tMap.put(t.charAt(i), tMap.getOrDefault(t.charAt(i), 0) + 1);
         }
-        for(char c : sMap.keySet()) {
-            if(!sMap.get(c).equals(tMap.get(c))) { //use equals for value matching
-                return false;
-            }
-        }
-        return true;
+        return sMap.equals(tMap);
     }
 }
 // time-complexity = O(n)
